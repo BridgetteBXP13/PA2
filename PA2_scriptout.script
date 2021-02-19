@@ -1,0 +1,79 @@
+Script started on 2020-02-26 02:48:12-06:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="154" LINES="24"]
+]777;notify;Command completed;ls -l\]0;BridgetteB@localhost:~\]7;file://localhost.localdomain/home/BridgetteB\[BridgetteB@localhost ~]$ echo "My program has a dependency on teh cu[K[K[K[K[Khe current directory it is sot[K[Ktored it[Kn, if it cannot find the given dr[Kirectory it simm[Kpley [K[K[Ky exit s"
+My program has a dependency on the current directory it is stored in, if it cannot find the given directory it simply exits
+]777;notify;Command completed;echo "My program has a dependency on the current directory it is stored in, if it cannot find the given directory it simply exits"\]0;BridgetteB@localhost:~\]7;file://localhost.localdomain/home/BridgetteB\[BridgetteB@localhost ~]$ gcc -o filecnt filecnt.c
+]777;notify;Command completed;gcc -o filecnt filecnt.c\]0;BridgetteB@localhost:~\]7;file://localhost.localdomain/home/BridgetteB\[BridgetteB@localhost ~]$ gcc -o filedisp filedism[Kp.c
+]777;notify;Command completed;gcc -o filedisp filedisp.c\]0;BridgetteB@localhost:~\]7;file://localhost.localdomain/home/BridgetteB\[BridgetteB@localhost ~]$ filecnt /usr/share | filedism[Kp -d
+bash: filecnt: command not found...
+bash: filedisp: command not found...
+^[[A^[[A        ^[[A    ls
+]777;notify;Command completed;filecnt /usr/share | filedisp -d\]0;BridgetteB@localhost:~\]7;file://localhost.localdomain/home/BridgetteB\[BridgetteB@localhost ~]$ ls
+ [0m[38;5;33mArduino[0m   [38;5;33mDesktop[0m     [38;5;40mfilecnt[0m     [38;5;40mfiledisp[0m      [38;5;33mMusic[0m                 [38;5;51m"PlayOnLinux's virtual drives"[0m   [38;5;40mtest[0m     [38;5;33mworkspace[0m
+ [38;5;40mcalc[0m      [38;5;33mDocuments[0m   filecnt.c   filedisp.c    PA2_scriptout.script   [38;5;33mPublic[0m                          test.c
+ calc.c    [38;5;33mDownloads[0m   [38;5;40mfiledcnt[0m    mozilla.pdf   [38;5;33mPictures[0m               [38;5;33mTemplates[0m                       [38;5;33mVideos[0m
+]777;notify;Command completed;ls\]0;BridgetteB@localhost:~\]7;file://localhost.localdomain/home/BridgetteB\[BridgetteB@localhost ~]$ lsfilecnt /usr/share | filedisp -d[1@.[1@/[1@.[1@/
+]777;notify;Command completed;./filecnt /usr/share | ./filedisp -d\]0;BridgetteB@localhost:~\]7;file://localhost.localdomain/home/BridgetteB\[BridgetteB@localhost ~]$ ./filecnt /usr/share | ./filedisp -d[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kf
+]777;notify;Command completed;./filecnt /usr/share | ./filedisp -f\]0;BridgetteB@localhost:~\]7;file://localhost.localdomain/home/BridgetteB\[BridgetteB@localhost ~]$ ./filecnt /usr/share | ./filedisp -f[Kb
+]777;notify;Command completed;./filecnt /usr/share | ./filedisp -b\]0;BridgetteB@localhost:~\]7;file://localhost.localdomain/home/BridgetteB\[BridgetteB@localhost ~]$ ch[K[Kechos "It exits because in the cwd ther is [K[K[K[Ke is no "[K/usr/share directory [K"
+bash: echos: command not found...
+Similar command is: 'echo'
+]777;notify;Command completed;echos "It exits because in the cwd there is no /usr/share directory"\]0;BridgetteB@localhost:~\]7;file://localhost.localdomain/home/BridgetteB\[BridgetteB@localhost ~]$ echos "It exits because in the cwd there is no /usr/share directory"[1P
+It exits because in the cwd there is no /usr/share directory
+]777;notify;Command completed;echo "It exits because in the cwd there is no /usr/share directory"\]0;BridgetteB@localhost:~\]7;file://localhost.localdomain/home/BridgetteB\[BridgetteB@localhost ~]$ echo "It exits because in the cwd there is no /usr/share directory"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@s[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[32P./filecnt /usr/share | ./filedisp -b[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@F[1@i[1@c[1P[1P[1P[1@P[1@i[1@t[1P[1@c[1@t[1@u[1@r[1@e[1@s
+The total number of bytes occupied by all files in directory Pictures	 is: 902271
+
+]777;notify;Command completed;./filecnt Pictures | ./filedisp -b\]0;BridgetteB@localhost:~\]7;file://localhost.localdomain/home/BridgetteB\[BridgetteB@localhost ~]$ ./filecnt Pictures | ./filedisp -b[C[Kf
+The total number of files in directory Pictures	 is: 5
+
+]777;notify;Command completed;./filecnt Pictures | ./filedisp -f\]0;BridgetteB@localhost:~\]7;file://localhost.localdomain/home/BridgetteB\[BridgetteB@localhost ~]$ ./filecnt Pictures | ./filedisp -f[Kd
+The total number of directories in directory Pictures	 is: 1
+
+]777;notify;Command completed;./filecnt Pictures | ./filedisp -d\]0;BridgetteB@localhost:~\]7;file://localhost.localdomain/home/BridgetteB\[BridgetteB@localhost ~]$ ./filecnt Pictures | ./filedisp -d[1P[1P[1P[1P[1P[1P[1P[1@D[1@o[1@w[1@n[1@l[1@o[1@a[1@d[C[1@s
+]777;notify;Command completed;./filecnt Downloadss | ./filedisp -d\]0;BridgetteB@localhost:~\]7;file://localhost.localdomain/home/BridgetteB\[BridgetteB@localhost ~]$ ./filecnt Downloadss | ./filedisp -d[C[1P
+The total number of directories in directory Downloads	 is: 1526
+
+]777;notify;Command completed;./filecnt Downloads | ./filedisp -d\]0;BridgetteB@localhost:~\]7;file://localhost.localdomain/home/BridgetteB\[BridgetteB@localhost ~]$ ./filecnt Downloads | ./filedisp -d[C[Kf
+The total number of files in directory Downloads	 is: 8227
+
+]777;notify;Command completed;./filecnt Downloads | ./filedisp -f\]0;BridgetteB@localhost:~\]7;file://localhost.localdomain/home/BridgetteB\[BridgetteB@localhost ~]$ ./filecnt Downloads | ./filedisp -f[Kb
+The total number of bytes occupied by all files in directory Downloads	 is: 1479385207
+
+]777;notify;Command completed;./filecnt Downloads | ./filedisp -b\]0;BridgetteB@localhost:~\]7;file://localhost.localdomain/home/BridgetteB\[BridgetteB@localhost ~]$ ./filecnt Downloads | ./filedisp -b[1P[1P[1P[1P[1P[1P[1P[1@c[1@u[1@m[1@e[1@n[1@t[1@s[1@/[1@h[1@o[1@m[1@e[1@/[1@B[1@r[1@i[1@d[1@g[1@e[1@t[1@t[1@e[1@B[1@/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+The total number of bytes occupied by all files in directory /home/BridgetteB/Documents	 is: 1457479932
+
+]777;notify;Command completed;./filecnt /home/BridgetteB/Documents | ./filedisp -b\]0;BridgetteB@localhost:~\]7;file://localhost.localdomain/home/BridgetteB\[BridgetteB@localhost ~]$ ./filecnt /home/BridgetteB/Documents | ./filedisp -b[Kf
+The total number of files in directory /home/BridgetteB/Documents	 is: 420
+
+]777;notify;Command completed;./filecnt /home/BridgetteB/Documents | ./filedisp -f\]0;BridgetteB@localhost:~\]7;file://localhost.localdomain/home/BridgetteB\[BridgetteB@localhost ~]$ ./filecnt /home/BridgetteB/Documents | ./filedisp -f[Kd
+The total number of directories in directory /home/BridgetteB/Documents	 is: 182
+
+]777;notify;Command completed;./filecnt /home/BridgetteB/Documents | ./filedisp -d\]0;BridgetteB@localhost:~\]7;file://localhost.localdomain/home/BridgetteB\[BridgetteB@localhost ~]$ ls -l
+total 268
+drwxrwxr-x. 3 BridgetteB BridgetteB  4096 Jul 28  2019  [0m[38;5;33mArduino[0m
+-rwxrwxr-x. 1 BridgetteB BridgetteB 20380 Feb  9 18:53  [38;5;40mcalc[0m
+-rw-rw-r--. 1 BridgetteB BridgetteB   830 Feb  9 18:53  calc.c
+drwxr-xr-x. 3 BridgetteB BridgetteB  4096 Jul  5  2019  [38;5;33mDesktop[0m
+drwxr-xr-x. 7 BridgetteB BridgetteB  4096 Feb 25 15:42  [38;5;33mDocuments[0m
+drwxr-xr-x. 8 BridgetteB BridgetteB  4096 Feb  4 17:29  [38;5;33mDownloads[0m
+-rwxrwxr-x. 1 BridgetteB BridgetteB 20900 Feb 26 02:49  [38;5;40mfilecnt[0m
+-rw-rw-r--. 1 BridgetteB BridgetteB  9222 Feb 26 02:44  filecnt.c
+-rwxrwxr-x. 1 BridgetteB BridgetteB 20900 Feb 26 02:27  [38;5;40mfiledcnt[0m
+-rwxrwxr-x. 1 BridgetteB BridgetteB 20492 Feb 26 02:49  [38;5;40mfiledisp[0m
+-rw-rw-r--. 1 BridgetteB BridgetteB  6191 Feb 26 01:45  filedisp.c
+-rw-rw-r--. 1 BridgetteB BridgetteB 84516 May  7  2019  mozilla.pdf
+drwxr-xr-x. 2 BridgetteB BridgetteB  4096 Oct 14  2018  [38;5;33mMusic[0m
+-rw-rw-r--. 1 BridgetteB BridgetteB  4096 Feb 26 02:50  PA2_scriptout.script
+drwxr-xr-x. 2 BridgetteB BridgetteB  4096 Feb 26 02:30  [38;5;33mPictures[0m
+lrwxrwxrwx. 1 BridgetteB BridgetteB    42 Dec 12  2018 [38;5;51m"PlayOnLinux's virtual drives"[0m -> [38;5;33m/home/BridgetteB/.PlayOnLinux//wineprefix/[0m
+drwxr-xr-x. 2 BridgetteB BridgetteB  4096 Oct 14  2018  [38;5;33mPublic[0m
+drwxr-xr-x. 2 BridgetteB BridgetteB  4096 Oct 14  2018  [38;5;33mTemplates[0m
+-rwxrwxr-x. 1 BridgetteB BridgetteB 20296 Feb  9 18:22  [38;5;40mtest[0m
+-rw-rw-r--. 1 BridgetteB BridgetteB   157 Feb  9 18:22  test.c
+drwxr-xr-x. 2 BridgetteB BridgetteB  4096 Oct 14  2018  [38;5;33mVideos[0m
+drwxr-xr-x. 3 BridgetteB BridgetteB  4096 Nov  7 12:12  [38;5;33mworkspace[0m
+]777;notify;Command completed;ls -l\]0;BridgetteB@localhost:~\]7;file://localhost.localdomain/home/BridgetteB\[BridgetteB@localhost ~]$ echo thank you!
+thank you!
+]777;notify;Command completed;echo thank you!\]0;BridgetteB@localhost:~\]7;file://localhost.localdomain/home/BridgetteB\[BridgetteB@localhost ~]$ exit
+exit
+
+Script done on 2020-02-26 02:52:23-06:00 [COMMAND_EXIT_CODE="0"]
